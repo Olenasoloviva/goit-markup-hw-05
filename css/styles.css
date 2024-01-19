@@ -564,6 +564,9 @@ justify-content: center;
     position:fixed;
     top: 0;
     background-color: rgba(46, 47, 66, 0.40);
+    /*opacity: 0;
+    visibility: hidden;
+    pointer-events: none;*/
  }
  
 .modal{
@@ -577,6 +580,12 @@ justify-content: center;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 24px;
+}
+
+.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .modal-close-btn{
