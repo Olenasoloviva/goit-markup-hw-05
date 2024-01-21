@@ -824,18 +824,19 @@ align-items: center;
     display: inline-flex; 
     background-color: #404bbf;
     border: none;
+    fill:#F4F4FD;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-text{
+.check-text span{
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border:1px solid  rgba(46, 47, 66, 0.40);
     margin-right: 8px;
+    align-items: center;
     justify-content: center;
     fill: transparent;
-    display: inline-flex; 
 }
 
 .check-icon{
