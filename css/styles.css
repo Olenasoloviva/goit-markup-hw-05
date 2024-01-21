@@ -808,10 +808,10 @@ display: flex;
 align-items: center;
 }
 
-/*.check-text a{
+.check-text a{
     color: #4D5AE5;
     text-decoration: underline;
-}*/
+}
 
 .check-span{
     background-color: #404bbf;
