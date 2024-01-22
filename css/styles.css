@@ -840,18 +840,11 @@ align-items: center;
  }
 
 .check-icon{
-    position: absolute;
     fill:#fff;
     width: 10px;
     height: 8px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
-position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 .pryvacy-policy{
     color: #4D5AE5;
