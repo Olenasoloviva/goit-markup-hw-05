@@ -816,10 +816,6 @@ display: flex;
 align-items: center;
 }
 
-/*.check-text a{
-    
-}*/
-
 .check-span{
     display: inline-flex; 
     background-color: #404bbf;
@@ -848,4 +844,18 @@ align-items: center;
 .pryvacy-policy{
     color: #4D5AE5;
     text-decoration: underline;
+}
+
+.check-text span{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.check-input:checked + .check-text span{
+   fill:#F4F4FD; 
 }
