@@ -831,14 +831,14 @@ align-items: center;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     margin-right: 8px;
     display: inline-flex; 
-    align-items: center;
     justify-content: center;
     fill: transparent;
 }
 
-.check-input:checked + .check-text span{
-    fill:#F4F4FD; 
+.check-input:checked + .check-text span{ 
+    background-color: #404BBF;
     border: none;
+    fill:#F4F4FD;
  }
 
 .check-icon{
