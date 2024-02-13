@@ -554,16 +554,16 @@ justify-content: center;
 }
 
 .footer-icon-link:hover,
-.footer-icon-link:focus{
+.footer-icon-link:focus {
     background-color: #31d0aa;
  }
 
- .footer-botton{
+ .footer-botton {
     display: flex;
     gap: 24px;
  }
 
- .footer-input{
+ .footer-input {
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -580,11 +580,11 @@ justify-content: center;
     letter-spacing: 0.04em;
  }
 
- .footer-input::placeholder{
+ .footer-input::placeholder {
     color: #ffffff; 
  }
 
- .footer-form-btn{
+ .footer-form-btn {
     display: flex;
     min-width: 165px;
     align-items: center;
@@ -604,11 +604,11 @@ justify-content: center;
     border: none;
  }
 
- .footer-icon-btn{
+ .footer-icon-btn {
     margin-left: 16px;
  }
 
- .backdrop{
+ .backdrop {
     width: 100%;
     height: 100%;
     position:fixed;
@@ -621,7 +621,7 @@ justify-content: center;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
-.modal{
+.modal {
     width: 408px;
     min-height: 584px;
     flex-shrink: 0;
@@ -636,21 +636,21 @@ justify-content: center;
     padding: 72px 24px 24px 24px; 
 }
 
-.modal:hover{
+.modal:hover {
     fill: #ffffff;
 }
 
-.modal:focus{
+.modal:focus {
     fill: #ffffff;
 }
 
-.is-open{
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
 
-.modal-close-btn{
+.modal-close-btn {
     position: absolute; 
     margin-left: auto;
     top: 24px;
@@ -669,26 +669,36 @@ justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);  
 }
 
-.modal-close-btn:hover{
+.modal-close-btn:hover {
     background-color: #404bbf; 
     border: none;
 }
 
-.modal-close-btn:focus{
+.modal-close-btn:focus {
     background-color: #404bbf;
     border: none; 
 }
 
-.modal-close-btn:hover .modal-icon {
+.modal-icon.btn{
+    position: absolute; 
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    fill: #2E2F42;
+  }
+
+.modal-close-btn:hover .modal-icon-btn{
     fill: #FFFFFF;
   }
-  .modal-close-btn:focus .modal-icon {
+  .modal-close-btn:focus .modal-icon.btn{
     fill: #FFFFFF;
   }
 
+
 .modal-icon{
     position: absolute;
-    left: 8px;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
