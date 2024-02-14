@@ -681,9 +681,6 @@ justify-content: center;
 
 .modal-icon-images{
     position: absolute;
-    left: 8px;
-    top: 50%;
-    transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     fill: #2E2F42;
   }
@@ -715,7 +712,6 @@ justify-content: center;
 }
 
 .modal-field{
-    margin-bottom: 8px;
 }
 
 .modal-field-comment{
